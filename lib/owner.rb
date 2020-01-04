@@ -9,7 +9,7 @@ class Owner
     @name = name
     @species = species
     @@owners << self 
-    @pets = {:cats => [], :dogs => []}
+    @allpets = {:cats => [], :dogs => []}
   end 
   
   def say_species 
@@ -57,7 +57,7 @@ class Owner
   end 
   
   def sell_pets
-    self.pets 
+    @@allpets 
     binding.pry 
   end 
 end 
