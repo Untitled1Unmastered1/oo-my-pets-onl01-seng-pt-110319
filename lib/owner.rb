@@ -62,6 +62,13 @@ class Owner
   #     pet.mood = "nervous"
   #     pet.owner = nil 
   #   end 
+  
+  def sell_pets
+    used = []
+    used << self.cats
+    used << self.dogs 
+    binding.pry 
+    
     
     
   end 
