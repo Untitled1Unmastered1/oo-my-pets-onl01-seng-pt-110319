@@ -59,7 +59,10 @@ class Owner
   def sell_pets 
     used = []
     used << self.cats + self.dogs 
-    binding.pry 
+    used.each do |pet| 
+      pet.mood = "nervous"
+      pet.owner = nil 
+    end 
   end 
 end 
 
