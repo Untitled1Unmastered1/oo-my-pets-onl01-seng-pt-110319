@@ -56,6 +56,8 @@ class Owner
     end 
   end 
   
+  def sell
+  
  
 
 end 
