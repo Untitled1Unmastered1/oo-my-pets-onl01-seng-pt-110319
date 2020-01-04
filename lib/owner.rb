@@ -56,13 +56,14 @@ class Owner
     end 
   end 
   
-  def sell_pets 
-    # used = []
-    used = self.cats + self.dogs 
-    used.each do |pet| 
-      pet.mood = "nervous"
-      pet.owner = nil 
-    end 
+  # def sell_pets 
+  #   used = self.cats + self.dogs 
+  #   used.each do |pet| 
+  #     pet.mood = "nervous"
+  #     pet.owner = nil 
+  #   end 
+    
+    
   end 
 end 
 
