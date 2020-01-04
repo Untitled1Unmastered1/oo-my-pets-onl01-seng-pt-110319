@@ -56,9 +56,7 @@ class Owner
     end 
   end 
   
-  def sell_pets
-    @pets 
-    binding.pry 
-  end 
+ 
+
 end 
 
