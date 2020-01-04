@@ -57,7 +57,7 @@ class Owner
   end 
   
   def sell_pets 
-    used = []
+    # used = []
     used << self.cats + self.dogs 
     used.each do |pet| 
       pet.mood = "nervous"
