@@ -56,9 +56,10 @@ class Owner
     end 
   end 
   
-  
-  
- 
-
+  def sell_pets 
+    used = []
+    used << self.cats + self.dogs 
+    binding.pry 
+  end 
 end 
 
